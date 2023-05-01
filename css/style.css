@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.top {
+	padding: 40px 0 96px 0;
+}
+
+/* ==== heading ==== */
+.top-menu {
+	margin: 0 0 84px 0;
+}
+
+.top-menu-img {}
+
+.top-menu-logo-txt {}
+
+.top-menu-list {
+	padding: 12px 0;
+}
+
+.top-menu-item {}
+
+.top-menu-item-link {}
+
+/* ==== END heading ==== */
+
+/* ==== content ==== */
+.top-content {
+	margin: 0 0 260px 0;
+}
+
+.top-content-main {}
+
+.top-content-title {
+	margin-bottom: 17px;
+}
+
+.top-content-txt {
+	margin-bottom: 37px;
+}
+
+.top-content-btr {}
+
+.top-content-img {}
+
+/* ==== END content ==== */
+
+/* ==== footer ==== */
+.top-logo {}
+
+.top-logo-list {}
+
+.top-logo-item {}
+
+/* ==== END footer */
