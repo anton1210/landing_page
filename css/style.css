@@ -7,6 +7,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color:black;
 	max-width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 }
 .top {
@@ -134,3 +135,166 @@ li {
 .top-logo-item {}
 
 /* ==== END footer */
+
+/* ==== Домашняя работа к семинару 5 ==== */
+/* advantages */
+a {
+	font-size: 11px;
+	line-height: 150%;
+}
+.advantages {
+	margin: 100px auto;
+}
+.advantages-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	gap: 60px;
+	justify-content: center;
+}
+.advantages-list {
+	list-style: none;
+	width: 310px;
+}
+.advantages-list:hover {
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+div.advantages-logo-red {
+	width: 70px;
+	height: 70px;
+	background: rgba(242, 88, 34, 0.25);
+	border-radius: 15px;
+}
+div.advantages-logo-green {
+	width: 70px;
+	height: 70px;
+	background: rgba(20, 146, 17, 0.28);
+	border-radius: 15px;
+}
+div.advantages-logo-orange {
+	width: 70px;
+	height: 70px;
+	background: rgba(255, 205, 29, 0.24);
+	border-radius: 15px;
+}
+
+.advantages-logo-business {
+	width: 70px;
+	height: 70px;
+	background-image: url(../img/logo-for-business.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.advantages-logo-quality {
+	width: 70px;
+	height: 70px;
+	background-image: url(../img/logo-for-quality.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.advantages-logo-sales {
+	width: 70px;
+	height: 70px;
+	background-image: url(../img/logo-for-sales.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.advantages-title {
+	font-size: 24px;
+	line-height: 28px;
+	padding: 25px 0 17px 0;
+}
+.advantages-txt {
+	font-size: 15px;
+	line-height: 150%;
+	color: #666666;
+	padding: 0 0 25px 0;
+}
+/* END advantages */
+
+/* offer */
+
+.offer {
+	margin: 0px auto 64px auto;
+	box-sizing: border-box;
+	border: 1px solid #000000;
+}
+.offer-title {
+	font-size: 45px;
+	text-align: center;
+	margin: 33px 0 0 0;
+}
+.offer-txt {
+	margin: 19px auto 0 auto;
+	font-size: 16px;
+	text-align: center;
+	color: #666666;
+	max-width: 682px;
+	max-height: 48px;
+}
+.offer-items {
+	margin: 55px 0 36px 0;
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+.offer-list {
+	max-width: 370px;
+	max-height: 549px;
+}
+.offer-list:hover {
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.offer-list-photo-research {
+	width: 385px;
+	height: 289px;
+	background-image: url(../img/img-research.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 15px 0 0 0;
+}
+.offer-list-photo-optimazadion {
+	width: 396px;
+	height: 297px;
+	background-image: url(../img/img-optimazadion.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 15px 0 0 0;
+}
+.offer-list-photo-marketing {
+	width: 400px;
+	height: 300px;
+	background-image: url(../img/img-marketing.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 15px 0 0 0;
+}
+.offer-list-title {
+	font-size: 24px;
+	text-align: center;
+	margin: 25px 0 0 0;
+}
+.offer-list-txt {
+	font-size: 15px;
+	text-align: center;
+	color: #AAAAAA;
+	margin: 22px 0 0 0;
+}
+button {
+	width: 150px;
+	height: 50px;
+	background: #F25822;
+	border-radius: 50px;
+	border-style: none;
+	color: white;
+	font-size: 13px;
+	margin: 0 auto;
+	display: block;
+	margin: 39px auto;
+}
+
+/* END offer */
+
+/* ==== END Домашняя работа к семинару 5 ====*/
